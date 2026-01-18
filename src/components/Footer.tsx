@@ -8,11 +8,11 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Alex Chen. All rights reserved.
+            © {currentYear} Karthik Vajjha. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/karthikvajjha"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -21,7 +21,7 @@ const Footer = () => {
               <Github size={18} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/karthikvajjha"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -30,7 +30,7 @@ const Footer = () => {
               <Linkedin size={18} />
             </a>
             <a
-              href="mailto:hello@alexchen.dev"
+              href="mailto:vajjhakarthik@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
               aria-label="Email"
             >

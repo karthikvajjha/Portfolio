@@ -1,10 +1,10 @@
 import { skillsData } from "@/data/portfolioData";
 
 const skillCategories = [
-  { key: "frontend" as const, label: "Frontend" },
-  { key: "backend" as const, label: "Backend" },
-  { key: "databases" as const, label: "Databases" },
+  { key: "languages" as const, label: "Languages" },
   { key: "tools" as const, label: "Tools" },
+  { key: "libraries & frameworks" as const, label: "Libraries & Frameworks" },
+  { key: "databases" as const, label: "Databases" },
 ];
 
 const SkillsSection = () => {
